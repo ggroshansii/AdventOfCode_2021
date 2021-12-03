@@ -26,8 +26,6 @@ let depthsByThree = [];
 let depths = [];
 let numIncreases = 0;
 
-
-
 readFile('./input.txt', (err, data) => {
     if (err) throw err;
     depths = data.toString().split('\n');
