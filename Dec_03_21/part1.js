@@ -97,6 +97,6 @@ for (let property in count) {
     }
 }
 
-console.log(gamma.join(),episolon)
-result = parseInt(gamma.join(), 2) * parseInt(episolon.join(), 2)
+console.log(gamma.join(""),episolon)
+result = parseInt(gamma.join(""), 2) * parseInt(episolon.join(""), 2)
 console.log(result);
